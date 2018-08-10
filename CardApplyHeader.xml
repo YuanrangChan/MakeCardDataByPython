@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterBOSS>
+    <Version>0100</Version>
+    <TestFlag>0</TestFlag>
+    <BIPType>
+        <BIPCode>BIP2B950</BIPCode>
+        <ActivityCode>T2140950</ActivityCode>
+        <ActionCode>0</ActionCode>
+    </BIPType>
+    <RoutingInfo>
+        <OrigDomain>BOSS</OrigDomain>
+        <RouteType>00</RouteType>
+        <Routing>
+            <HomeDomain>PBSS</HomeDomain>
+            <RouteValue>997</RouteValue>
+        </Routing>
+    </RoutingInfo>
+    <TransInfo>
+        <SessionID>timesec10</SessionID>
+        <TransIDO>timesec10</TransIDO>
+        <TransIDOTime>xxx</TransIDOTime>
+	</TransInfo>
+	<SNReserve>
+		<TransIDC>timesec10</TransIDC>
+		<ConvID>timesec10</ConvID>
+		<CutOffDay>xxx</CutOffDay>
+		<OSNTime>xxx</OSNTime>
+		<OSNDUNS>xxx0</OSNDUNS>
+		<HSNDUNS>9970</HSNDUNS>
+		<MsgSender>xxx1</MsgSender>
+		<MsgReceiver>0600</MsgReceiver>
+		<Priority>90</Priority>
+		<ServiceLevel>55</ServiceLevel>
+		<SvcContType>01</SvcContType>
+	</SNReserve>
+</InterBOSS>

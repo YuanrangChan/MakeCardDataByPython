@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InterBOSS>
+<SvcCont><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<SyncInfo>
+    <Queryinfo>
+        <OprNum>xxx</OprNum>
+        <QueryOprNum>xxx</QueryOprNum>
+        <CardMfrs>xxx</CardMfrs>
+        <ProvinceID>xxx</ProvinceID>
+        <Applicant>xxx</Applicant>
+        <ApplicantPhone>xxx</ApplicantPhone>
+        <ApplyDate>xxx</ApplyDate>
+        <ApplyReason>xxx</ApplyReason>
+        <FileReceiver>1</FileReceiver>
+          <MsisdnSectionInfo>
+            <MsisdnSection>xxx</MsisdnSection>
+            <MsisdnSectionNum>xxx</MsisdnSectionNum>
+        </MsisdnSectionInfo>
+    </Queryinfo>
+</SyncInfo>]]>
+</SvcCont>
+</InterBOSS>

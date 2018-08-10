@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pbos="http://www.chinamobile.com/PBOSS/">
+<soapenv:Header/>
+<soapenv:Body>
+        <pbos:CardApplyResultNoticeRequest>
+               <Queryinfo>
+                      <OprNum>xxx</OprNum>
+					  <QueryOprNum>xxx</QueryOprNum>
+					  <Result>01</Result>
+                      <ResultDesc></ResultDesc>
+                      <DataFile>xxx</DataFile>
+                      <KeyIdxFile>xxx</KeyIdxFile>
+               </Queryinfo>
+        </pbos:CardApplyResultNoticeRequest>
+</soapenv:Body>
+</soapenv:Envelope>

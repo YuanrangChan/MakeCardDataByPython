@@ -1,0 +1,27 @@
+<?xml version"1.0" encoding="UTF-8" standalone="no"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://www.chinamobile.com/PBOSS/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<SOAP-ENV:Header>
+<ns1:Address>xxx</ns1:Address>
+<ns1:Username>1</ns1:Username>
+<ns1:Password>1</ns1:Password>
+<ns1:BIPCode>WIP1A001</ns1:BIPCode>
+<ns1:BIPVer>0100</ns1:BIPVer>
+<ns1:ActivityCode>T1000002</ns1:ActivityCode>
+<ns1:ProcID>20130923104514153</ns1:ProcID>
+<ns1:TransIDO>0634TTM2P00920140923104514002010</ns1:TransIDO>
+<ns1:TransIDH/>
+<ns1:ProcessTime>20130923104514</ns1:ProcessTime>
+<ns1:TestFlag>0</ns1:TestFlag>
+<ns1:SvcConVer>0100</ns1:SvcConVer>
+</SOAP-ENV:Header>
+<SOAP-ENV:Body>
+<SimKeyInfoSynNoticeRequest>
+<OprSeq>xxx</OprSeq>
+<QueryOprNum>xxx</QueryOprNum>
+<DataFileName>xxx</DataFileName>
+<KeyFileName>xxx</KeyFileName>
+<Retcode>0000</Retcode>
+<RetMsg>成功</RetMsg>
+</SimKeyInfoSynNoticeRequest>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
