@@ -1,8 +1,6 @@
 #for python3
 from time import *
-import random
 import os
-import sys
 import ftplib  #用来FTP上传文件
 import requests
 import setting
@@ -40,7 +38,7 @@ class MakeCard():
                         '|2~' + sum(conf.numbers, 1) + '\n')
             #写入IMSI和ICCID卡数据文件
             IMSI = EIDorIMSI
-            for i in range(setting.Setting().numbers):
+            for i in range(conf.numbers):
                 IMSI = int(IMSI) + i
                 ICCID = ICCID[:-7]+str(int(ICCID[-7:])+i).zfill(7)
                 uname.write('')
