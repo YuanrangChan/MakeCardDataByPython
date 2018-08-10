@@ -1,0 +1,2 @@
+# MakeCardDataByPython
+20180810：python制卡数据，连接数据库查询APP表的status以便判断是否上传wcp文件发送反馈报文和连接主机获取ICCID和IMSI暂未实现
